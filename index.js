@@ -1,5 +1,5 @@
 const app = require('express')();
-const axios = require('axios').default;
+const axios = require('axios');
 const server = require('http').createServer(app);
 const io = require('socket.io')(server, {
   cors: {
