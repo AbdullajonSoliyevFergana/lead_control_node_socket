@@ -9,7 +9,7 @@ const io = require('socket.io')(server, {
 
 const port = 3000
 
-const back_url = 'http://127.0.0.1:8081/';
+const back_url = 'http://leadback.abdullajonsoliyev.uz/';
 
 app.get("/update", (req, res) => {
   io.emit('update');
